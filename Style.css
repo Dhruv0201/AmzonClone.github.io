@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif; 
+}
+body{
+    background-color: var(--minor-bg-color);
+}
+:root{
+    --magor-bg-color: #131921;
+    --minior-bg-color: #ebeded;
+    --amzon-major-color: #febd68;
+
+
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--magor-bg-color);
+    display: flex;
+    justify-content: center;
+
+}
+.header .headernav{
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+.header .headernav .HeaderContainer{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .headernav .HeaderContainer .amzonlogo{
+    width: 100px;
+  
+}
+.header .headernav .HeaderContainer .headersearh{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.header .headernav .HeaderContainer .headersearh .Searchbar{
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+
+}
+.header .headernav .HeaderContainer .headersearh .searchbutton{
+width: 40px;
+height: 38px;
+background-color: var(--amzon-major-color);
+border: 1px solid #ccc ;
+justify-content: center;
+display: flex;
+align-items: center;
+align-content: center;
+color: #232323 ;}
+
+.header .headernav .HeaderContainer .headerCart{
+    color: white;
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+
+}
+.header .headernav .HeaderContainer .headerCart svg{
+        
+        width: 40px;
+        height: 38px;
+}
+.section1{
+    width: 100%;
+    height: auto;
+    background-color: var(--magor-bg-color);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+    background-size: cover;
+}
+.section1 .section1conatier{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.section1 .section1conatier .column1{
+    width: 100%;
+    background-color : white;
+    padding: 20px;
+}
+.section1 .section1conatier .column1 img{
+    width: 100%;
+   height: auto;
+   margin-top: 20px; 
+}
+.section1 .section1conatier .column1 p{
+   margin-top: 10px;
+    font-size: 14px;
+    color: #007185;
+}
+
+
+.section1 .section1conatier .column2{
+    width: 100%;
+    background-color : white;
+    padding: 20px;
+}
+.section1 .section1conatier .column2 img{
+    width: 100%;
+   height: auto;
+   margin-top: 20px; 
+}
+.section1 .section1conatier .column2 p{
+   margin-top: 10px;
+    font-size: 14px;
+    color: #007185;
+}
+
+.section1 .section1conatier .column3{
+    width: 100%;
+    background-color : white;
+    padding: 20px;
+}
+.section1 .section1conatier .column3 img{
+    width: 100%;
+   height: auto;
+   margin-top: 20px; 
+}
+.section1 .section1conatier .column3 p{
+   margin-top: 10px;
+    font-size: 14px;
+    color: #007185;
+}
+.section1 .section1conatier .column4{
+    width: 100%;
+    background-color : white;
+    padding: 20px;
+
+}
+.section1 .section1conatier button{
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    background-color: var(--amzon-major-color);
+    padding: 10px;;
+    border-radius: 10px;
+}
+.section2{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+
+}
+.section2 .section2container  h3{
+    margin-bottom: 10px;
+
+}
+.section2 .section2container .productcards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+ 
+
+}
+.section2 .section2container .productcards .productcard{
+    display: inline block;
+    width: 300px !important;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.section2 .section2container .productcards .productcard img{
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+}
+.section3{
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.section3 .section3contaier{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.section3 .section3contaier .productcardsdetailed{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+
+}
+.section3 .section3contaier .productcardsdetailed .productcarddetailed{
+    display: inline-block;
+    width: 200px !important;
+    flex :  0 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4;
+    
+}
+.section3 .section3contaier .productcardsdetailed .productcarddetailed .prdocutdetailimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.section3 .section3contaier .productcardsdetailed .productcarddetailed .prdocutdetailimg img{
+    width: 100%;
+    height: 100%;
+    max-width: 156516px;
+    max-height: 145150px;
+}
+.section3 .section3contaier .productcardsdetailed  a{
+    text-decoration: none;
+    color: #180085;
+    font-size: 14px;
+
+}
+.section3 .section3contaier .productcardsdetailed  a:hover{
+    color: rgb(226, 70, 43);
+}
+.section3 .section3contaier .productcardsdetailed .deliverdby{
+    color: #222;
+    font-size: 13px;
+}
+.section4{
+    padding: 20px;
+}
+.section4 .section4container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section4 .section4container p{
+    margin-top: 4px;
+    font-size: 15px;
+
+}
+.section4 .section4container button{
+    width: 20%;
+    border: none;
+    padding: 20px;
+    background-color: var(--amzon-major-color);
+    border-radius: 10px;
+
+}
+footer{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #131921;
+    color: var(--amzon-major-color);
+    width: 100%;
+    display: flex;
+}
